@@ -1,0 +1,67 @@
+.clinic {
+  width: 100%;
+  height: 100%;
+}
+
+.clinic__blog {
+  width: 100%;
+  height: 100%;
+  margin-top: 58px;
+  display: flex;
+  gap: 30px;
+}
+
+.clinic__swiper {
+  width: 65%;
+  height: 100%;
+}
+
+.clinic__info {
+  width: 35%;
+  height: 100%;
+}
+
+.clinic .swiper .swiper-button-next,
+.clinic .swiper .swiper-button-prev {
+  display: block !important;
+}
+
+.clinic__blog-info {
+  padding: 60px 0 0 0;
+}
+
+.clinic__blog-info-title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  gap: 25px;
+}
+
+.clinic__blog-info-text h1 {
+  font-weight: 900;
+  font-size: 47px;
+  line-height: 142.69%;
+  color: #071e20;
+}
+
+.clinic__blog-info-text p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 142.69%;
+  color: #071e20;
+}
+
+.clinic__blog-info h6 {
+  margin: 63px 0 25px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 142.69%;
+  color: #071e20;
+}
+
+.clinic__blog-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}

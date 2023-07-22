@@ -1,0 +1,134 @@
+
+.result {
+  padding: 50px 0;
+}
+
+.result_item {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+.result_photo {
+  width: 100%;
+  height: 100%;
+}
+.result_title h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 200%;
+  color: #071e20;
+}
+.result_left p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 178%;
+  color: #071e20;
+  padding-bottom: 25px;
+}
+
+.result_left button {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-radius: 34px;
+  padding: 0 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  color: #071e20;
+  border: 1px solid #7c7c7c;
+  margin: 20px 0;
+  cursor: pointer;
+}
+.result_left button:hover {
+  border: 1px solid #07d7e6;
+  transition: 0.5s;
+  background-color: transparent;
+}
+.result_left button:hover span {
+  color: #07d7e6;
+  transition: 0.5s;
+}
+.result_left .btn_length {
+  width: 100%;
+}
+.result_left span {
+  color: #7c7c7c;
+  font-size: 28px;
+  margin-right: 10px;
+}
+.result_item .btn_flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.result_item .btn_medium {
+  width: 45%;
+}
+.result_item .btn_short {
+  width: 36%;
+}
+.result_item .btn_medium2 {
+  width: 60%;
+}
+@media (min-width: 1800px) {
+  .result_left button {
+    font-size: 28px;
+    height: 70px;
+    letter-spacing: 1.5npmpx;
+  }
+  .result_left p {
+    font-size: 35pnx;
+  }
+}
+@media (max-width: 1172px) {
+  .result_left p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    color: #071e20;
+    padding-bottom: 25px;
+  }
+}
+@media (max-width: 1296px) {
+  .result_left button {
+    font-size: 16px;
+  }
+}
+@media (max-width: 956px) {
+  .result_left button {
+    font-size: 14px;
+  }
+}
+@media (max-width: 856px) {
+  .result_item {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .result_item .result_right {
+    display: none;
+  }
+  .result_left button {
+    font-size: 16px;
+  }
+}
+@media (max-width: 622px) {
+  .result_left button {
+    font-size: 14px;
+  }
+}
+@media (max-width: 546px) {
+  .result_left button {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 426px) {
+  .result {
+    display: none;
+  }
+}

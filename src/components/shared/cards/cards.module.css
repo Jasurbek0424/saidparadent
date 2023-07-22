@@ -1,0 +1,136 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 70%;
+  margin: 0 auto;
+}
+
+.card {
+  background: #ffffff;
+  border: 1.25463px solid #eaeaea;
+  border-radius: 17.5648px;
+  cursor: pointer;
+  margin: 25px;
+  cursor: pointer;
+  transition: 0.4s;
+  min-height: 370px;
+}
+
+.card:hover {
+  filter: drop-shadow(1.17214px 5.01852px 16.41px rgba(37, 160, 169, 0.1));
+}
+
+.card .img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: #071e20;
+  padding-bottom: 8px;
+}
+
+.card p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 142.69%;
+  letter-spacing: 0.025em;
+  color: #071e20;
+}
+
+.title {
+  padding: 15px 20px;
+}
+
+.card_txt {
+  padding-bottom: 35px;
+}
+
+.card_txt h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #071e20;
+}
+
+.hidden {
+  display: none;
+}
+
+.standarts {
+  padding-top: 50px;
+}
+
+@media (min-width: 1700px) {
+  .card2 {
+    display: none;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .hidden {
+    display: block;
+  }
+}
+@media (max-width: 1224px) {
+  .card p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1138px) {
+  .card h1 {
+    font-size: 20px;
+  }
+  .card p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 990px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card {
+    margin: 10px;
+  }
+  .card2 {
+    display: none;
+  }
+  .hidden {
+    display: block;
+  }
+  .card_txt h1 {
+    font-size: 25px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 570px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card {
+    margin: 10px;
+  }
+}
+@media (max-width: 394px) {
+  .card_txt h1 {
+    font-size: 20px;
+    text-align: start;
+  }
+}

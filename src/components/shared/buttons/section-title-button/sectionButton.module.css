@@ -1,0 +1,19 @@
+.section-button {
+  padding: 9px 28px;
+  color: #071e20;
+  border: 2px solid #071e20;
+  border-radius: 32px;
+  background: transparent;
+}
+
+.section-button:hover {
+  color: #fff;
+  background: #239511;
+  border: 2px solid #239511;
+}
+
+@media screen and (max-width: 768px) {
+    .section-button {
+      display: none;
+    }
+}

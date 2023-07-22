@@ -1,0 +1,57 @@
+.whyUs {
+  display: flex;
+  gap: 30px;
+}
+
+.whyUs .whyUs-left {
+  width: 30%;
+}
+
+.whyUs .whyUs-right {
+  width: 70%;
+}
+
+.whyUs .whyUs-left .whyUs__left-blocks {
+  margin-top: 58px;
+}
+
+.whyUs .whyUs-left .whyUs__left-blocks .whyUs__left-title {
+  margin: 30px 0 8px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #071e20;
+}
+
+.whyUs .whyUs-left .whyUs__left-blocks .whyUs__left-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 142.69%;
+  letter-spacing: 0.025em;
+  color: #071e20;
+}
+
+.whyUs .whyUs-right .whyUs__right-licenses {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin: 30px 0;
+}
+
+.whyUs .whyUs-right .whyUs__right-licenses img {
+  width: 100%;
+  height: 90%;
+}
+
+.whyUs .whyUs-right .typography {
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 1440px) {
+  .swiper-slide img {
+    width: 280px;
+    height: 240px;
+  }
+}

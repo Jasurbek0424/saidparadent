@@ -1,0 +1,71 @@
+/* header */
+@import '../components/Layout/Header/header.module.css';
+@import '../components/Navbar/navbar.module.css';
+
+/* sections */
+@import '../components/Doctor/doctor.module.css';
+@import '../components/Sertificats/sertificats.module.css';
+@import '../components/Works/works.module.css';
+@import '../components/Workvideo/workVideo.module.css';
+@import '../components/Clinic/clinic.module.css';
+@import '../components/Service/Service.module.css';
+@import '../components/Location/Location.module.css';
+@import '../components/Results/results.module.css';
+@import '../components/shared/cards/cards.module.css';
+
+/* FOOTER */
+@import '../components/Layout/Footer/Footer.module.css';
+
+/* FONTS */
+@import './fonts.css';
+
+/* typography */
+@import '../components/Typography/typography.module.css';
+
+/* global components */
+@import '../components/shared/buttons/section-title-button/sectionButton.module.css';
+
+html,
+body {
+  position: relative;
+  width: 100% !important;
+  height: 100% !important;
+  font-family: Roboto, sans-serif;
+}
+
+#__next {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section {
+  margin-top: 80px;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: #fff;
+    color: #000;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    margin-top: 40px;
+  }
+}

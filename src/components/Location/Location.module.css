@@ -1,0 +1,297 @@
+.location {
+    height: 100vh;
+    padding: 0 15px;
+
+}
+
+.location__titile,
+.location__right-titile {
+    font-family: 'Roboto-Bold';
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 160%;
+    color: #071E20;
+}
+
+.location__right-titile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px !important;
+    line-height: 100% !important;
+    gap: 10px;
+}
+
+.location__right {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.location__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+    padding-bottom: 50px;
+}
+
+
+
+.location__form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.location__form input {
+    padding-bottom: 5px;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    font-family: 'Roboto-Regular';
+    font-size: 18px;
+    color: black;
+}
+
+/* .location__form input:last-child {
+    border: none;
+} */
+
+.location__form input:active {
+    outline: none;
+}
+
+.location__form input::placeholder {
+    color: #000;
+}
+
+
+.location__address {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+
+}
+
+.location__address span {
+    font-family: 'Roboto-Medium';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: white;
+    background-color: black;
+    padding: 7.5px 27px;
+    border: 2px solid #071E20;
+    border-radius: 43px;
+    cursor: pointer;
+}
+
+.location__address span:last-child {
+    color: #000;
+    background-color: transparent;
+}
+
+.send_form {
+    font-family: 'Roboto-Medium';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 140%;
+    padding: 7.5px 27px;
+    background-color: #000;
+    border-radius: 40px;
+    outline: none;
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.send_form:active {
+    background-color: #071E20;
+}
+
+
+@media screen and (max-width: 1328px) {
+
+    .location__titile,
+    .location__right-titile {
+        font-size: 40px;
+    }
+
+    .locat-map {
+        width: 500px;
+        height: 400px;
+    }
+
+    .location__right {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+
+    .location__titile,
+    .location__right-titile {
+        font-size: 36px;
+    }
+
+    .location__info {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    /* .locat-map,
+    .location__right {
+        width: 80%;
+    } */
+
+    .location__address {
+        margin: 0 auto;
+    }
+
+    .location__titile,
+    .location__right-titile {
+        text-align: center;
+        font-size: 40px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 570px) {
+
+    .location__titile,
+    .location__right-titile {
+        font-size: 30px;
+    }
+
+    .location__form {
+        flex-direction: column;
+        gap: 25px;
+        width: 100%;
+    }
+
+    .location__form>input {
+        width: 100%;
+    }
+
+    .locat-map {
+        width: 400px;
+        height: 350px;
+    }
+
+    .location__address span {
+        font-size: 15px;
+        padding: 2px 10px;
+    }
+
+    .send_form {
+        font-size: 15px;
+        padding: 2px 15px;
+        width: 100%;
+    }
+
+    .location__address {
+        gap: 15px;
+
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .locat-map {
+        width: 350px;
+        height: 300px;
+    }
+
+    .location__info {
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+
+    .location__titile,
+    .location__right-titile {
+        font-size: 20px;
+    }
+
+    .location__address span {
+        font-size: 13px;
+        padding: 2px 10px;
+    }
+
+    .location__right {
+        justify-content: space-around;
+    }
+}
+
+
+@media screen and (max-width: 380px) {
+    .locat-map {
+        width: 300px;
+        height: 250px;
+    }
+
+    .location__info {
+        gap: 20px;
+    }
+
+    .location__right {
+        justify-content: center;
+        gap: 15px;
+        height: 300px;
+    }
+
+    .location__form input::placeholder {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .locat-map {
+        width: 250px;
+        height: 200px;
+    }
+
+    .location__address span {
+        font-size: 11px;
+        border: none;
+    }
+
+    .location__address {
+        gap: 0px;
+        background-color: #000;
+        border-radius: 15px;
+    }
+
+    .location__address span:last-child {
+        color: white;
+    }
+
+    .location__info {
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .location__right-titile {
+        font-size: 17px;
+    }
+
+    .location__right {
+        justify-content: space-between;
+    }
+
+    .location__address span {
+        padding: 0;
+    }
+
+    .location__address {
+        padding: 2px 10px;
+        width: 100%;
+        justify-content: space-between;
+    }
+}
